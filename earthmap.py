@@ -43,4 +43,3 @@ my_layout = Layout(title=file_name_title)
 
 fig = {'data': data, 'layout': my_layout}
 offline.plot(fig, filename='global_earthquakes.html')
-
